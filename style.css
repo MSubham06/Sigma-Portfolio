@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     padding: 0 20px 0 100px;
     width: 100%;
     height: auto;
@@ -114,13 +114,13 @@ body {
 }
 .name:hover {
     /* color: red; */
-    font-size: 3.5rem;
-    animation: color-change 0.6s ease-in infinite;
+    font-size: 2.5rem;
+    animation: color-change 0.5s ease-in infinite;
 }
 @keyframes color-change {
-    0% { color: red; }
+    0% { color: rgb(255, 255, 255); }
     50% { color: #ffeb3b; }
-    100% { color: rgb(255, 0, 0); }
+    100% { color: rgb(255, 255, 255); }
   }
 .h1d p {
     font-size: 1rem;
@@ -136,7 +136,7 @@ body {
 .h2d img {
     width: 80%;
     height: auto;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
 }
 .h2d img:hover {
     width: 85%;
@@ -147,6 +147,56 @@ body {
 .hp1 {
     padding-bottom: 50px;
     color: #c9c6c6;
+}
+
+.button-28 {
+    appearance: none;
+    background-color: black;
+    border: 2px solid #ffeb3b;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    color: #ffeb3b;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-left: 0;
+    min-height: 40px;
+    min-width: 100px;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 200px;
+    will-change: transform;
+  }
+  
+.button-28:disabled {
+    pointer-events: none;
+}
+  
+.button-28:hover {
+    color: #000000;
+    font-weight: 700;
+    background-color: #ffeb3b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+  
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.fa-github {
+    text-align: center;
+    padding-right: 5px;
 }
 
 /* About */
@@ -176,7 +226,7 @@ body {
 .a1d img {
     width: 90%;
     height: auto;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
 }
 .a1d img:hover {
     width: 94%;
@@ -186,6 +236,7 @@ body {
 
 .ap1 .ap2{
     padding-bottom: 50px;
+    font-size: 5rem;
 }
 
 .Abthead {
@@ -194,10 +245,9 @@ body {
     font-style:normal;
     color: #ffeb3b;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
 }
-
-
-
 
 @media (max-width:800px) {
     .navbar{
@@ -235,7 +285,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -245,9 +295,11 @@ ul {
 
 .links {
     color: #ffffff;
+    padding: 5px;
 }
 .links:hover {
     color: #ffeb3b;
+    font-size: 1.1rem;
 }
 
 .fs1 {
@@ -261,9 +313,6 @@ ul {
     font-weight: 300;
     color: #ffffffae;
 }
-
-
-
 
 /* Grid Background */ 
 .container1 {
