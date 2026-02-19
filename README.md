@@ -55,3 +55,18 @@ Sigma-Portfolio/
 ├── style.css               # Styling, Grid Background, and Animations
 ├── script.js               # Loader logic and Form handling
 └── README.md               # Documentation
+```
+
+---
+
+📬 Contact
+
+M Subham
+Full Stack Web Developer | B.Tech CSE (AI & ML)
+
+<div align="left"> <a href="https://www.linkedin.com/in/msubham/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/MSubham06" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/irl.subhhh?igsh=Znl4anBoMnhvNWhs" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <a href="https://www.youtube.com/@SubhamIRL" target="_blank"> <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> </a> </div>
+
+---
+<p align="center"> Made with 💛 by Subham <br/> &copy; 2025 Designed & Developed from Scratch </p>
+
+
