@@ -1,4 +1,4 @@
-# 🚀 Sigma-Portfolio
+# Sigma-Portfolio 🚀
 
 ![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge)
 ![Tech](https://img.shields.io/badge/Stack-HTML5%20|%20CSS3%20|%20JS-blue?style=for-the-badge)
